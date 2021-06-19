@@ -7,8 +7,7 @@ contract Voting {
   
   mapping (bytes32 => uint8) public votesReceived;
   
-  /* We will use an array of bytes32 instead to store the list of candidates
-  */
+  
   
   bytes32[] public candidateList;
 

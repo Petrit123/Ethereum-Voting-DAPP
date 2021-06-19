@@ -5,11 +5,7 @@ import "../styles/app.css";
 import { default as Web3} from 'web3';
 import { default as contract } from 'truffle-contract'
 
-/*
- * When you compile and deploy your Voting contract,
- * truffle stores the abi and deployed address in a json
- * file in the build directory. 
- */
+
 
 import voting_artifacts from '../../build/contracts/Voting.json'
 
